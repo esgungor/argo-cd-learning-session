@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: account-test
-          image: enginsgungor/account-test:v1
+          image: enginsgungor/account-test:v2
           ports:
             - containerPort: 8080

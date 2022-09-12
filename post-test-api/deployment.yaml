@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: post-test
-          image: enginsgungor/post-test:v1
+          image: enginsgungor/post-test:v2
           ports:
             - containerPort: 8080
