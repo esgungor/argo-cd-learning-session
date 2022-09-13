@@ -3,3 +3,4 @@ kind: Kustomization
 
 resources:
   - account-test-api
+  - post-test-api
