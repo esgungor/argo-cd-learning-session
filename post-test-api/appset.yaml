@@ -4,7 +4,7 @@ metadata:
   name: post-api
 spec:
   destination:
-    namespace: default
+    namespace: argocd
     server: https://kubernetes.default.svc
   project: default
   source:
