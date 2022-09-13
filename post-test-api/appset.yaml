@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: account-api
+  name: post-api
 spec:
   destination:
     namespace: default
