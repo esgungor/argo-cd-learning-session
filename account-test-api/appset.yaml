@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: account-api
+spec:
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: "account-test-api/overlays"
+    repoURL: https://github.com/esgungor/argo-cd-learning-session
+    targetRevision: HEAD

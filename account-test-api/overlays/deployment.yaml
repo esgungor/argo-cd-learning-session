@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: account-test-deployment
+  labels:
+    app: account-test
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: account-test
+  template:
+    metadata:
+      labels:
+        app: account-test
+    spec:
+      containers:
+        - name: account-test
+          image: enginsgungor/account-test:v2
+          ports:
+            - containerPort: 8080
