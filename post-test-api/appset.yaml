@@ -8,6 +8,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: "account-test-api/overlays"
+    path: "post-test-api/overlays"
     repoURL: https://github.com/esgungor/argo-cd-learning-session
     targetRevision: HEAD
